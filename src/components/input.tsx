@@ -29,7 +29,7 @@ export default function Input({ onSendMessage, disabled = false }: InputProps) {
           onChange={(e) => setInput(e.target.value)}
           placeholder="Escribe tu pregunta..."
           disabled={disabled}
-          className="flex-1 font-body p-2.5 sm:p-3 text-sm sm:text-base rounded-xl border border-red-400 focus:outline-none focus:ring-2 focus:ring-red-400 bg-white disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex-1 font-body p-2.5 sm:p-3 text-base rounded-xl border border-red-400 focus:outline-none focus:ring-2 focus:ring-red-400 bg-white disabled:opacity-50 disabled:cursor-not-allowed"
         />
         <button
           type="submit"
