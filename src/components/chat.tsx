@@ -35,7 +35,7 @@ export default function Chat({ messages, isLoading, error }: ChatProps) {
             <p className="text-xs sm:text-sm font-semibold mb-1">
               {msg.role === 'user' ? 'Tú' : 'Tutor'}
             </p>
-            <p className="font-subtitle text-base sm:text-lg whitespace-pre-wrap break-words">
+            <p className="font-body text-base sm:text-lg whitespace-pre-wrap break-words">
               {msg.parts}
             </p>
           </div>
