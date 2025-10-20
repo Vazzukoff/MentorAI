@@ -34,7 +34,7 @@ class ChatService {
         message,
       });
 
-      return response.text;
+      return response.text ?? '';
     } catch (error) {
       console.error("Error al enviar mensaje:", error);
       throw error;
@@ -61,7 +61,7 @@ class ChatService {
         message,
       });
 
-      return response.text;
+      return response.text ?? '';
     } catch (error) {
       console.error("Error al enviar mensaje con historial:", error);
       throw error;

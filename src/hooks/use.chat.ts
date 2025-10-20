@@ -7,7 +7,6 @@ export const useChat = () => {
   const [error, setError] = useState<string | null>(null);
   const sessionId = 'user-session';
 
-  // Mensaje de bienvenida instantáneo al cargar
   useEffect(() => {
     const welcomeMessage: Message = {
       role: 'model',
